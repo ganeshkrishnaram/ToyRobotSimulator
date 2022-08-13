@@ -12,3 +12,5 @@ Domain models persisting the Position,Direction and ToyRobot Commands are implem
 The application runs in a single executable file which can be opened by double clicking it. 
 <h4>Test Case <h4>
   BDD Test cases are implemented for the Simulator component to ensure the testing is more of a Use Case driven approach. 
+<h4>NOTE</h4>
+  The Lifetimescope of the core ToyRoboSimulator components are currently kept as Singleton Instance. Both the AddScoped/AddSingleton will work for the current application scenario. Currently used the Singleton scope for the purpose of this exercise.
